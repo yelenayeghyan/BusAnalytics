@@ -1,0 +1,9 @@
+ NOT the only method used for finding the optimal number of clusters for k-means clustering.
+Decision Tree Classification DOES NOT results highly depend on homoscedasticity assumption being met.
+One may overcome overfitting by hyperparameter optimization in case of Decision Tree.
+Specificity is NOT the percentage of true positives in real positives.
+P-values of Decision Tree Classifier coefficients can be easily obtained but are not reliable. - NO
+The Gini coefficient in the root (very first) node is calculated as 2*p*(1-p) for binary classification, where p is
+the percentage of 0s (or 1s) in the total dataset.
+Decision Tree Regression importance measure indicates the percentage of Gini index decrease resulting from
+the splits with the given feature.
