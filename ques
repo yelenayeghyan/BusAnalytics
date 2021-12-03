@@ -1,0 +1,53 @@
+
+What is the percentage of non-default?
+
+What is the default rate for the group of customers whose purpose is business?
+
+Provide the plot which shows the distribution of credit_amount.
+
+Are there any transformations you would suggest to implement towards credit_amount variable?
+                  We can transform credit_amount variable into 1 and 0, where 1 is high( greater than mean) and 0 is low(less
+                   than mean).
+                   
+Analyze/visualize the variable duration_in_month by creating a boxplot, scatter plot or in any other mean you
+find appropriate. Given your analysis, do you expect this variable to have a significant impact on default?
+Why/Why not?
+                     Yes, I think it has significant impact on default as the mean and media for 0 and 1 are not in the same level,
+                      and also the range is different.
+                      
+Insert below the plot which shows the count of observations in each category of purpose variable per group
+of default (i.e. countplot of purpose, using default as a grouping variable).
+
+Considering the same variable that you analyzed in previous question, is there a category of that
+variable that you believe might have a significant effect on default? Why/why not?
+             I think it has a significant impact. Although for every category 0s are greater than 1s, but the default rate is
+              different for each category of purpose.
+              
+Which numeric variables have correlation > 0.6 in absolute values? Are those correlations positive or
+negative?
+
+For simplicity convert all the categorical variables to dummies. How many variables do you have now?
+Build a logistic regression model and tune hyperparameters to achieve competitive performance as measured
+by ROC AUC. Write down the best values of hyperparameters you achieved for your model.
+
+Implement the same task as above yet for the Decision Tree model this time.
+
+List top 3 most important features (and relative importances in brackets) according to the Decision Tree.
+                  account_check_status_no checking account
+                  duration_in_month
+                  property_real estate
+                  (purpose_domestic appliances,
+                  age)
+For both, best Logistic Regression and Decision Tree models provide the following evaluation metrics.
+                    Train set:
+                    Accuracy
+                    ROC_AUC
+                    Recall
+                    Test set
+                    Accuracy
+                    ROC_AUC
+                    Recall
+
+Given the two model above, which model do you prefer and why? Please, explain.
+                           I would prefer Logit. Although the difference between train and test is greater in Logit, but it has higher
+                          measures.
